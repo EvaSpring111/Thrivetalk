@@ -1,0 +1,199 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/oswald/v48/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiZTaR.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/oswald/v48/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+:root {
+    font-size: 25px;
+    line-height: 1.125;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+
+header {
+    padding-left: 179px;
+    width: 100%;
+    max-width: 1440px;
+    background-image: url(img/backgroung.png);
+    background-size: 1117px;
+}
+
+.header-header {
+   display: flex;
+   align-items: center;
+}
+
+a.headre-link-Thrivetalk1 {
+    display: block;
+    flex: 0 0 487px;
+
+    margin-top: 27px;
+
+    font-size: .88888rem;
+    line-height: 1.09458;
+    font-weight: bold;
+
+    color: #62D0DF;
+    text-decoration: none;
+}
+
+a.headre-link-Thrivetalk1:hover,
+a.headre-link-Thrivetalk1:focus {
+    color:rgb(13, 13, 77);
+}
+
+a.headre-link-Thrivetalk1:visited {
+    color: #c9c613;
+}
+
+.header-nav {
+    flex-basis: 0;
+    flex-grow: 0;
+    flex-shrink: 233px;
+
+    margin-top: 28px;
+}
+
+.header-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links li a {
+    text-decoration: none;
+}
+
+.header-links li:not(:first-child) {
+    padding-left: 30px;
+}
+
+ul.header-links li a {
+    font-size: .51851rem;
+    line-height: 1.11357;
+    color: #22356F;
+}
+
+nav ul.header-links li a:hover,
+nav ul.header-links li a:focus {
+    color:rgb(66, 66, 168);
+    font-weight: bold;
+}
+
+.header-link-contact_us {
+    display: block;
+    box-sizing: border-box;
+
+    margin-right: 274px;
+    margin-top: 27px;
+    margin-left: 319px;
+    padding: 20px 30px 19px 30px;
+    background-color: #62D0DF;
+
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: .51851rem;
+    line-height: 1;
+
+    border: 0px solid black;
+    border-radius: 50px 50px 50px 50px;
+
+    flex: 0 0 150px;
+}
+
+a.header-link-contact_us:hover {
+    border: 1px solid rgb(1, 1, 92)
+}
+
+.headre-link-Thrivetalk2 {
+    display: block;
+    flex: 0 0 487px;
+
+    margin-top: 241px;
+    padding-bottom: 41.5px;
+
+    font-size: .88888rem;
+    line-height: 1.09458;
+    font-weight: bold;
+
+    color: #62D0DF;
+    text-decoration: none;
+}
+
+a.headre-link-Thrivetalk2:hover,
+a.headre-link-Thrivetalk2:focus {
+    color:rgb(13, 13, 77);
+}
+
+.header-title {
+    color:#22356F;
+    font-size: 1.77777rem;
+    line-height: 1.05263;
+}
+
+.header-article {
+    color: #22356F;
+    font-size: .88888rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+hgroup {
+    display: flex;
+    gap: 38px;
+}
+
+hgroup h6 a {
+    font-size: .59259rem;
+    line-height: 1.25;
+    text-decoration: none;
+}
+
+.header-link-WHO_AM_I {
+  color: white;
+  background: #F9B640;
+  
+  padding: 10px 30px 11px 30px;
+}
+a.header-link-WHO_AM_I:hover,
+a.header-link-WHO_AM_I:focus {
+   border: 1px solid #f19c08;
+}
+
+a.header-link-WHAT_DO_I_DO:hover,
+a.header-link-WHAT_DO_I_DO:focus
+ {
+  font-size: .65259rem
+}
+
+.header-link-WHAT_DO_I_DO{
+color: #FAB63E;
+}
+
+
+
+
+
