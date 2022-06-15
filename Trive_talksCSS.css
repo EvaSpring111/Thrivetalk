@@ -48,8 +48,8 @@ a.headre-link-Thrivetalk1 {
 
     margin-top: 27px;
 
-    font-size: .88888rem;
-    line-height: 1.09458;
+    font-size: .88rem;
+    line-height: 1.09;
     font-weight: bold;
 
     color: #62D0DF;
@@ -66,10 +66,10 @@ a.headre-link-Thrivetalk1:visited {
 }
 
 .header-nav {
-    flex-basis: 0;
+    /*flex-basis: 0;
     flex-grow: 0;
-    flex-shrink: 233px;
-
+    flex-shrink: 233px;*/
+    margin-left: 233px;
     margin-top: 28px;
 }
 
@@ -83,6 +83,10 @@ a.headre-link-Thrivetalk1:visited {
     align-items: center;
 }
 
+li {
+    width: 30px;
+}
+
 .header-links li a {
     text-decoration: none;
 }
@@ -92,8 +96,8 @@ a.headre-link-Thrivetalk1:visited {
 }
 
 ul.header-links li a {
-    font-size: .51851rem;
-    line-height: 1.11357;
+    font-size: .51rem;
+    line-height: 1.11;
     color: #22356F;
 }
 
@@ -115,10 +119,10 @@ nav ul.header-links li a:focus {
 
     color: #FFFFFF;
     text-decoration: none;
-    font-size: .51851rem;
+    font-size: .51rem;
     line-height: 1;
 
-    border: 0px solid black;
+    border: 1px solid transparent;
     border-radius: 50px 50px 50px 50px;
 
     flex: 0 0 150px;
@@ -135,8 +139,8 @@ a.header-link-contact_us:hover {
     margin-top: 241px;
     padding-bottom: 41.5px;
 
-    font-size: .88888rem;
-    line-height: 1.09458;
+    font-size: .88rem;
+    line-height: 1.09;
     font-weight: bold;
 
     color: #62D0DF;
@@ -150,13 +154,13 @@ a.headre-link-Thrivetalk2:focus {
 
 .header-title {
     color:#22356F;
-    font-size: 1.77777rem;
-    line-height: 1.05263;
+    font-size: 1.77rem;
+    line-height: 1.05;
 }
 
 .header-article {
     color: #22356F;
-    font-size: .88888rem;
+    font-size: .88rem;
     font-weight: bold;
     line-height: 2;
 }
@@ -167,7 +171,7 @@ hgroup {
 }
 
 hgroup h6 a {
-    font-size: .59259rem;
+    font-size: .59rem;
     line-height: 1.25;
     text-decoration: none;
 }
@@ -175,9 +179,12 @@ hgroup h6 a {
 .header-link-WHO_AM_I {
   color: white;
   background: #F9B640;
+  border: 1px solid transparent;
+
   
   padding: 10px 30px 11px 30px;
 }
+
 a.header-link-WHO_AM_I:hover,
 a.header-link-WHO_AM_I:focus {
    border: 1px solid #f19c08;
@@ -186,7 +193,7 @@ a.header-link-WHO_AM_I:focus {
 a.header-link-WHAT_DO_I_DO:hover,
 a.header-link-WHAT_DO_I_DO:focus
  {
-  font-size: .65259rem
+  font-size: .65rem
 }
 
 .header-link-WHAT_DO_I_DO{
